@@ -22,7 +22,18 @@ namespace BankoCheater
                 new List<int> { 7, 12, 25, 33, 87 },
                 new List<int> { 19, 38, 43, 56, 67 }
                 ));
-
+            plates.Add(new Plader(
+               "Johannes",
+               new List<int> { 1, 14, 22, 70, 81 },
+               new List<int> { 15, 26, 34, 72, 84 },
+               new List<int> { 35, 49, 57, 68, 85 }
+               ));
+            plates.Add(new Plader(
+               "Rasmus",
+               new List<int> { 10, 31, 60, 70, 81 },
+               new List<int> { 5, 27, 42, 52, 75 },
+               new List<int> { 8, 19, 29, 55, 78 }
+               ));
 
             //foreach (var plateData in platesData)
             //{

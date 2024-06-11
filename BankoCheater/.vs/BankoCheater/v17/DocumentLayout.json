@@ -3,11 +3,11 @@
   "WorkspaceRootPath": "C:\\Users\\gustav.dam\\OneDrive - Baettr\\Dokumenter\\GitHub\\banko-gust3665\\BankoCheater\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{E7F0C3D7-0EFB-4608-BF79-417622339D44}|..\\Selenium\\Selenium.csproj|c:\\users\\gustav.dam\\onedrive - baettr\\dokumenter\\github\\banko-gust3665\\selenium\\selenium.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{DBEEE684-66A1-4F09-BB9F-54642184CDFE}|BankoCheater.csproj|c:\\users\\gustav.dam\\onedrive - baettr\\dokumenter\\github\\banko-gust3665\\bankocheater\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{DBEEE684-66A1-4F09-BB9F-54642184CDFE}|BankoCheater.csproj|solutionrelative:program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E7F0C3D7-0EFB-4608-BF79-417622339D44}|..\\Selenium\\Selenium.csproj|c:\\users\\gustav.dam\\onedrive - baettr\\dokumenter\\github\\banko-gust3665\\selenium\\selenium.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -17,11 +17,27 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 0,
+          "SelectedChildIndex": 1,
           "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{aa2115a1-9712-457b-9047-dbb71ca2cdd2}"
+            },
             {
               "$type": "Document",
               "DocumentIndex": 0,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\gustav.dam\\OneDrive - Baettr\\Dokumenter\\GitHub\\banko-gust3665\\BankoCheater\\Program.cs",
+              "RelativeDocumentMoniker": "Program.cs",
+              "ToolTip": "C:\\Users\\gustav.dam\\OneDrive - Baettr\\Dokumenter\\GitHub\\banko-gust3665\\BankoCheater\\Program.cs",
+              "RelativeToolTip": "Program.cs",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-11T11:24:57.09Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
               "Title": "Selenium.cs",
               "DocumentMoniker": "C:\\Users\\gustav.dam\\OneDrive - Baettr\\Dokumenter\\GitHub\\banko-gust3665\\Selenium\\Selenium.cs",
               "RelativeDocumentMoniker": "..\\Selenium\\Selenium.cs",
@@ -29,22 +45,6 @@
               "RelativeToolTip": "..\\Selenium\\Selenium.cs",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-06-11T08:37:52.155Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Bookmark",
-              "Name": "ST:0:0:{aa2115a1-9712-457b-9047-dbb71ca2cdd2}"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "Program.cs",
-              "DocumentMoniker": "C:\\Users\\gustav.dam\\OneDrive - Baettr\\Dokumenter\\GitHub\\banko-gust3665\\BankoCheater\\Program.cs",
-              "RelativeDocumentMoniker": "Program.cs",
-              "ToolTip": "C:\\Users\\gustav.dam\\OneDrive - Baettr\\Dokumenter\\GitHub\\banko-gust3665\\BankoCheater\\Program.cs",
-              "RelativeToolTip": "Program.cs",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-06-10T08:48:50.218Z",
               "EditorCaption": ""
             }
           ]
