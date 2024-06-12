@@ -3,10 +3,10 @@
   "WorkspaceRootPath": "C:\\Users\\gustav.dam\\OneDrive - Baettr\\Dokumenter\\GitHub\\banko-gust3665\\BankoCheater\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{E7F0C3D7-0EFB-4608-BF79-417622339D44}|..\\Selenium\\Selenium.csproj|c:\\users\\gustav.dam\\onedrive - baettr\\dokumenter\\github\\banko-gust3665\\selenium\\selenium.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{E7F0C3D7-0EFB-4608-BF79-417622339D44}|..\\Selenium\\Selenium.csproj|c:\\users\\gustav.dam\\onedrive - baettr\\dokumenter\\github\\banko-gust3665\\selenium\\bankoplader.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\gustav.dam\\AppData\\Local\\SourceServer\\54d31e2385aa4083fddddaa5f53c862fb071629974abca3838d9ca8e05845e19\\Selenium\\Selenium.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{E7F0C3D7-0EFB-4608-BF79-417622339D44}|..\\Selenium\\Selenium.csproj|c:\\users\\gustav.dam\\onedrive - baettr\\dokumenter\\github\\banko-gust3665\\selenium\\selenium.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{DBEEE684-66A1-4F09-BB9F-54642184CDFE}|BankoCheater.csproj|c:\\users\\gustav.dam\\onedrive - baettr\\dokumenter\\github\\banko-gust3665\\bankocheater\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -20,7 +20,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 3,
+          "SelectedChildIndex": 1,
           "Children": [
             {
               "$type": "Bookmark",
@@ -28,15 +28,15 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "Selenium.cs",
-              "DocumentMoniker": "C:\\Users\\gustav.dam\\AppData\\Local\\SourceServer\\54d31e2385aa4083fddddaa5f53c862fb071629974abca3838d9ca8e05845e19\\Selenium\\Selenium.cs",
-              "RelativeDocumentMoniker": "..\\..\\..\\..\\..\\AppData\\Local\\SourceServer\\54d31e2385aa4083fddddaa5f53c862fb071629974abca3838d9ca8e05845e19\\Selenium\\Selenium.cs",
-              "ToolTip": "C:\\Users\\gustav.dam\\AppData\\Local\\SourceServer\\54d31e2385aa4083fddddaa5f53c862fb071629974abca3838d9ca8e05845e19\\Selenium\\Selenium.cs [Read Only]",
-              "RelativeToolTip": "..\\..\\..\\..\\..\\AppData\\Local\\SourceServer\\54d31e2385aa4083fddddaa5f53c862fb071629974abca3838d9ca8e05845e19\\Selenium\\Selenium.cs [Read Only]",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-06-11T11:58:59.862Z",
-              "EditorCaption": " [Read Only]"
+              "DocumentIndex": 0,
+              "Title": "bankoplader.json",
+              "DocumentMoniker": "C:\\Users\\gustav.dam\\OneDrive - Baettr\\Dokumenter\\GitHub\\banko-gust3665\\Selenium\\bankoplader.json",
+              "RelativeDocumentMoniker": "..\\Selenium\\bankoplader.json",
+              "ToolTip": "C:\\Users\\gustav.dam\\OneDrive - Baettr\\Dokumenter\\GitHub\\banko-gust3665\\Selenium\\bankoplader.json",
+              "RelativeToolTip": "..\\Selenium\\bankoplader.json",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2024-06-12T07:12:32.46Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
@@ -52,14 +52,14 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 1,
               "Title": "Selenium.cs",
               "DocumentMoniker": "C:\\Users\\gustav.dam\\OneDrive - Baettr\\Dokumenter\\GitHub\\banko-gust3665\\Selenium\\Selenium.cs",
               "RelativeDocumentMoniker": "..\\Selenium\\Selenium.cs",
               "ToolTip": "C:\\Users\\gustav.dam\\OneDrive - Baettr\\Dokumenter\\GitHub\\banko-gust3665\\Selenium\\Selenium.cs",
               "RelativeToolTip": "..\\Selenium\\Selenium.cs",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-06-11T08:37:52.155Z",
+              "WhenOpened": "2024-06-12T07:14:47.213Z",
               "EditorCaption": ""
             }
           ]

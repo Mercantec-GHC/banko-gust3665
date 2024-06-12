@@ -13,3 +13,6 @@ C:\Users\gustav.dam\OneDrive - Baettr\Dokumenter\GitHub\banko-gust3665\BankoChea
 C:\Users\gustav.dam\OneDrive - Baettr\Dokumenter\GitHub\banko-gust3665\BankoCheater\obj\Debug\net8.0\BankoCheater.pdb
 C:\Users\gustav.dam\OneDrive - Baettr\Dokumenter\GitHub\banko-gust3665\BankoCheater\obj\Debug\net8.0\BankoCheater.genruntimeconfig.cache
 C:\Users\gustav.dam\OneDrive - Baettr\Dokumenter\GitHub\banko-gust3665\BankoCheater\obj\Debug\net8.0\ref\BankoCheater.dll
+C:\Users\gustav.dam\OneDrive - Baettr\Dokumenter\GitHub\banko-gust3665\BankoCheater\bin\Debug\net8.0\Newtonsoft.Json.dll
+C:\Users\gustav.dam\OneDrive - Baettr\Dokumenter\GitHub\banko-gust3665\BankoCheater\obj\Debug\net8.0\BankoCheater.csproj.AssemblyReference.cache
+C:\Users\gustav.dam\OneDrive - Baettr\Dokumenter\GitHub\banko-gust3665\BankoCheater\obj\Debug\net8.0\BankoChe.62AB7640.Up2Date

@@ -1,12 +1,15 @@
 ﻿using OpenQA.Selenium.Chrome;
 using OpenQA.Selenium;
-using System.Security.Cryptography.X509Certificates;
+using System.Text.Json.Serialization;
+using System.Text.Json;
+using System.IO;
+
 
 
 
 namespace Selenium
 {
-    internal class Selenium
+    internal class Program
     {
         public static void Main(string[] args)
         {
@@ -16,7 +19,7 @@ namespace Selenium
                 driver.Navigate().GoToUrl("https://mercantec-ghc.github.io/MAGS-Banko/");
 
 
-                for (var i = 0; i < 10; i++)
+                for (var i =1; i < 5001; i++)
                 {
                     GeneratePlate($"Gustav{i}");
                 }
@@ -41,10 +44,10 @@ namespace Selenium
                 IWebElement inputElement = driver.FindElement(By.Id("tekstboks"));
                 inputElement.Clear();
                 inputElement.SendKeys(plateId);
-                IWebElement submitButton = driver.FindElement(By.Id("knap"));
-                submitButton.Click();
+                IWebElement buttonElement = driver.FindElement(By.Id("knap"));
+                buttonElement.Click();
 
-                System.Threading.Thread.Sleep(1000);
+                System.Threading.Thread.Sleep(0);
                 var tdElements = driver.FindElements(By.TagName("td"));
 
                 List<int> row1 = new List<int>();
@@ -58,19 +61,19 @@ namespace Selenium
 
                     if (int.TryParse(text, out int number))
                     {
-                        if (int.TryParse(text, out int number))
+
+                        if (counter <= 5)
                         {
-                            if (counter <= 5)
-                            {
-                                row1.Add(number);
-                            }
-                            else if (counter <= 10)
-                            { row2.Add(number); }
-                            else
-                            { row3.Add(number); }
-                            counter++;
+                            row1.Add(number);
                         }
+                        else if (counter <= 10)
+                        { row2.Add(number); }
+                        else
+                        { row3.Add(number); }
+                        counter++;
+
                     }
+                }
                     Data data = new Data
                     {
                         Id = plateId,
@@ -79,13 +82,32 @@ namespace Selenium
                         Row3 = row3
                     };
 
+                    string filePath = "C:\\Users\\gustav.dam\\OneDrive - Baettr\\Dokumenter\\GitHub\\banko-gust3665\\Selenium\\bankoplader.json";
 
+                    List<Data> dataList;
+                    if (File.Exists(filePath))
+                    {
+                        string existingData = File.ReadAllText(filePath);
+                        if (string.IsNullOrEmpty(existingData))
+                        {
+                            dataList = new List<Data>();
+                        }
+                        else
+                        {
+                            dataList = JsonSerializer.Deserialize<List<Data>>(existingData);
+                        }
+                    }
+                    else
+                    {
+                        dataList = new List<Data>();
+                    }
 
+                    dataList.Add(data);
+                    string jsonString = JsonSerializer.Serialize(dataList, new JsonSerializerOptions { WriteIndented = true});
 
-                    driver.Quit();
+                    File.WriteAllText(filePath, jsonString);
 
-
-
+                    Console.WriteLine($"Data has been written to  {filePath}");
                 }
 
             }
@@ -98,4 +120,3 @@ namespace Selenium
             public List<int> Row3 { get; set; }
         }
     }
-}

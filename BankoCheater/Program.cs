@@ -1,4 +1,5 @@
-﻿using System.Security.Cryptography.X509Certificates;
+﻿
+using Newtonsoft.Json;
 
 namespace BankoCheater
 {
@@ -9,6 +10,8 @@ namespace BankoCheater
 
             string gamestate = "1Row";
 
+            string json = File.ReadAllText("C:\\Users\\gustav.dam\\OneDrive - Baettr\\Dokumenter\\GitHub\\banko-gust3665\\Selenium\\bankoplader.json");
+            var platesData = JsonConvert.DeserializeObject<List<Plader>>(json);
             List<Plader> plates = new List<Plader>();
             plates.Add(new Plader(
                 "Boris",
@@ -35,15 +38,15 @@ namespace BankoCheater
                new List<int> { 8, 19, 29, 55, 78 }
                ));
 
-            //foreach (var plateData in platesData)
-            //{
-            //    plates.Add(new Plader(
-            //        plateData.Name,
-            //        plateData.Row1,
-            //        plateData.Row2,
-            //        plateData.Row3
-            //        ));
-            //}
+            foreach (var plateData in platesData)
+            {
+                plates.Add(new Plader(
+                    plateData.Name,
+                    plateData.Row1,
+                    plateData.Row2,
+                    plateData.Row3
+                    ));
+            }
             DrawNumber("Please enter a number:");
 
             void DrawNumber(string message)
