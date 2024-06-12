@@ -13,13 +13,15 @@ namespace Selenium
     {
         public static void Main(string[] args)
         {
-            IWebDriver driver = new ChromeDriver();
+            ChromeOptions options = new ChromeOptions();
+            options.AddArgument("--headless");
+            IWebDriver driver = new ChromeDriver(options);
             try
             {
                 driver.Navigate().GoToUrl("https://mercantec-ghc.github.io/MAGS-Banko/");
+                ((IJavaScriptExecutor)driver).ExecuteScript("document.getElementById('myModal').style.display = 'none';");
 
-
-                for (var i =1; i < 5001; i++)
+                for (var i =19490; i < 20001; i++)
                 {
                     GeneratePlate($"Gustav{i}");
                 }
@@ -107,7 +109,7 @@ namespace Selenium
 
                     File.WriteAllText(filePath, jsonString);
 
-                    Console.WriteLine($"Data has been written to  {filePath}");
+                    //Console.WriteLine($"Data has been written to  {filePath}");
                 }
 
             }

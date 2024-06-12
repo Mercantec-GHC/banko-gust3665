@@ -109,6 +109,7 @@ namespace BankoCheater
         }
         public class Plader
         {
+            [JsonProperty("Id")]
             public string Name { get; set; }
             public List<int> Row1 { get; set; }
             public List<int> Row2 { get; set; }
